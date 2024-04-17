@@ -1,0 +1,15 @@
+
+CREATE DATABASE IF NOT EXISTS reservas_de_hotel;
+USE reservas_de_hotel;
+
+CREATE TABLE IF NOT EXISTS reservas (
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    nombre_huesped VARCHAR(50) NOT NULL,
+    telefono_huesped VARCHAR(50) NOT NULL,
+    numero_habitacion VARCHAR(50) NOT NULL,
+    fecha_alojamiento DATE NOT NULL,
+    fecha_salida DATE NOT NULL,
+    fecha_adicion TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    estado ENUM('pendiente', 'confirmada', 'cancelada') NOT NULL DEFAULT 'pendiente',
+    PRIMARY KEY (id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;

@@ -1,0 +1,33 @@
+Gestión de reservas de hotel:
+
+ > Añadir nuevas reservas (Create)
+Usuario (siendo un resepsionista o cualquier representante de la administración de un hotel que utuliza esta misma aplicación) puede selecionar siguientes puntos:
+-nombre de huésped;
+-teléfono de huésped;
+-número de habitación apropiada;
+-fecha de alojamiento;
+-fecha de salida supuesta;
+
+ > Ver todas las reservas actuales y futuras (Read)
+Delante de usuario esta presentada la lista de reservas, donde puede examinar:
+-los ID´s de cada reserva (se asigna automaticamente);
+-nombre de huésped;
+-teléfono de huésped;
+-número de habitación;
+-fecha de alojamiento;
+-fecha de salida supuesta;
+-tiempo y fecha de momento, cuando la reserva fue creada;
+
+ > Actualizar el estado de las reservas (Update)
+A disposición de usuario hay posibilidades de cambiar el estatus de reserva:
+-está pendiente de confirmación;
+-сonfirmar la reserva;
+-cancelarla;
+y además:
+-editar;
+
+> Eliminar reservas antiguas o canceladas (Delete)
+También hay funcion de eliminar las reservas, que ya no están relevantes:
+-eliminar.
+
+P.S. (!) No he añadido los comentarios dentro de los documentos presentados como ejemplo, porque considero que esta descripción es bastante comprensiva y exhaustiva.
